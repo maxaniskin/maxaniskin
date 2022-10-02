@@ -1,0 +1,248 @@
+
+ 
+  /*--door middle--*/
+  
+  #nav1{ display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999999;
+    perspective: 1000px;}
+
+.items{z-index: 9999999;
+}
+  #nav1 .door {
+  width: 100%;
+  height:110vh;
+  z-index: 9999999;
+  padding: 0;
+
+  
+  transition: all 1s;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  perspective: 1000px;
+  top:0rem;
+  left: 0;
+
+  
+  }
+
+  .door_midle1 {
+
+ 
+    z-index: 9999999;
+  }
+    .door_midle {
+    z-index: 99999999;
+    background-image:url(../img/img/certan.png);
+    background-repeat: no-repeat;
+ background-size:cover;
+ background-color:rgba(107, 106, 106, 0.165);
+
+ 
+    z-index: 9999999;
+  }video{z-index: 99999;}
+  @keyframes pulse {
+    from {
+      transform: scale(0);
+      opacity: 0.1;
+    }
+    50% {
+
+      opacity: 0.7;
+    }
+    70%{      transform: scale(1.1);
+    }
+
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+   
+/*
+  #nav1.opened .door_midle1{
+      transform: translate(0,234vh);
+     -webkit-transform: translate(0,234vh);
+    -o-transform: translate(0,234vh);
+    -moz-transform: translate(0,234vh);
+    transition-duration: 9s;
+    transform: linear 3s;
+  }*/  
+  #nav1.opened .door_midle{
+    transform: translate(0,-400vh);
+   
+    transition-duration: 
+    9s;
+    z-index: 999999999;
+     }   
+
+  
+
+  
+#nav1.opened {
+height: auto;
+ 
+-webkit-transition: linear 1s;
+transition: linear 1s;
+
+}
+
+
+
+
+#nav1 .bar22 a{
+position: relative;
+text-align: center;
+width: 35px;
+height: 5px;
+color: rgb(255, 255, 255);
+margin-left: auto;
+margin-right: auto;
+font-size: 2rem;
+z-index: 99999999;
+text-decoration: none;position:absolute ;left: 42%;
+  bottom: 25%;
+  font-size: 2em;
+  color: rgb(251, 244, 244);  
+}
+
+
+#nav1.opened .bar1 {
+-webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+ .door_text h3{z-index: 999999999;
+color:white;
+position:absolute; 
+top: 65%;
+left: 43%;
+font-size: 5rem;
+} 
+  
+ 
+  .toptitle{
+    display: flex;
+    position: absolute;
+    top: 15rem;
+    font-size: 6em;  transform: scale(1);
+       animation: pulse 4s ease-in-out 1;
+    color:rgb(255, 255, 255);
+  }
+   
+   
+  .fam{
+ 
+   position: relative;
+    margin-top: 2rem;
+    margin-left: auto;
+margin-right: auto;
+    font-size: 6em;
+    color:rgba(82, 20, 20, 0.2);
+    -webkit-text-stroke:0.02rem rgb(255, 254, 251);
+    transform: scale(1);
+    animation: pulse 4s ease-in-out 1;
+  }
+  .door_left nav{
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 9rem auto;
+    padding: 9rem 23rem;
+    z-index: 9999;
+  }
+  .door_left nav h1{
+
+  text-align: center;
+  font-size: 9rem;}
+  .door_left nav p{
+
+    text-align: center;
+    font-size: 3rem;
+  color: white;
+text-align: left;
+padding: 0 15rem;
+line-height: 4.7rem;}
+
+.fullscreen-bg {
+  overflow: hidden;
+  z-index: -10000000;
+  position:absolute ;top: 0;
+  height: 100%;
+  width: 100%;
+  padding-top:45%;
+}
+
+.fullscreen-bg__video {
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width:80%;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+.fullscreen-bg {
+  background: url('../images/plane.jpg') center center / cover no-repeat;
+}
+
+.fullscreen-bg__video {
+  display: none;z-index: -99999;
+}
+
+.overlay h1 {
+    font-size: 40px;
+}
+.door_right nav {
+  position: relative;
+  display: block;
+  margin-top: 15rem;
+  width: 90%;}
+  
+ .door_right nav a{
+  color: gold;
+  padding: 1rem ;font-size: 2em;
+}
+
+
+}
+
+/**/
+.backToSitehereBtn{
+display: block;
+width: 150px;
+height: 150px;
+background: #01BC78;
+text-align: center;
+line-height: 170px;
+font-size: 20px;
+border-radius: 50%;
+color:#fff;
+position: absolute;
+text-decoration: none;
+top:-40px;
+left:-40px;
+transform:rotate(-45deg) scale(1);
+transition:all 0.25s linear;
+}
+
+.backToSitehereBtn:hover {
+text-decoration: none;
+top:-10px;
+left:-10px;
+transform:rotate(-45deg) scale(1.3);
+}
+footer{
+  width: 100%;
+  height: 95;
+}
+footer.navbar{ position: fixed; bottom: 8%; left: 0; width: 100%; z-index: 10;
+  height: 5rem;
+}

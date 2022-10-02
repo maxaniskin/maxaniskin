@@ -112,7 +112,7 @@ html[xmlns] .slides {display: block;}
 	height:100%;
 	font-family:FontAwesome;
 	text-align:center;
-	opacity:0;
+	opacity:1;
 }
 .flexslider.portfolio_single_slider .flex-direction-nav li a:hover {background:none;}
 .flexslider.portfolio_single_slider .flex-direction-nav li a.flex-prev {left:-50px;}

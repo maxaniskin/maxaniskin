@@ -88,7 +88,10 @@
 	display: none !important;
 }
 .mfp-preloader {
-	color: #cccccc;
+	color:  rgb(144, 103, 61)
+
+
+ccc;
 	position: absolute;
 	top: 50%;
 	width: auto;
@@ -99,7 +102,10 @@
 	z-index: 1044;
 }
 .mfp-preloader a {
-	color: #cccccc;
+	color:  rgb(144, 103, 61)
+
+
+ccc;
 }
 .mfp-preloader a:hover {
 	color: white;
@@ -151,7 +157,10 @@ button::-moz-focus-inner {
 	top: 1px;
 }
 .mfp-close-btn-in .mfp-close {
-	color: #333333;
+	color:  rgb(144, 103, 61)
+
+
+333;
 }
 .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
@@ -165,7 +174,10 @@ button::-moz-focus-inner {
 	position: absolute;
 	top: 0;
 	right: 0;
-	color: #cccccc;
+	color:  rgb(144, 103, 61)
+
+
+ccc;
 	font-size: 12px;
 	line-height: 18px;
 }
