@@ -78,7 +78,7 @@ html[xmlns] .slides {display: block;}
 	display:block;
 	width:70px;
 	height:70px;
-	font-family:FontAwesome;
+	
 	text-align:center;
 	background-color:#fff;
 }
@@ -110,18 +110,18 @@ html[xmlns] .slides {display: block;}
 
 
 /* __________ Portfolio Post Direction Nav __________ */
-.flexslider.portfolio_single_slider {position:relative;}
+.flexslider.portfolio_single_slider {position:relative; }
 .flexslider.portfolio_single_slider .flex-direction-nav li a {
 	position:absolute;
 	z-index:300;
 	top:0;
-	bottom:0;
+	bottom:0;overflow: hidden;
 	display:block;
 	width:200px;
 	height:100%;
 	font-family:FontAwesome;
 	text-align:center;
-	opacity:1;
+	opacity:0;
 }
 .flexslider.portfolio_single_slider .flex-direction-nav li a:hover {background:none;}
 .flexslider.portfolio_single_slider .flex-direction-nav li a.flex-prev {left:-50px;}

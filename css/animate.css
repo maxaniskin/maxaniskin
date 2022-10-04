@@ -76,36 +76,36 @@ opacity: 0;
     }
 
  @-webkit-keyframes pulse2 {
-      0%{opaity: 0; -transform: scale(0.1);}
+      0%{opacity: 0; -transform: scale(0.1);}
                50%  {-webkit-transform: scale(1.1);
-opacity:1;}
-99%{opcity: 0.9;}
+opacity: 1;}
+99%{opacity: 0.9;}
         100% {-webkit-transform: scale(1);
-opacty: 1;}
+opacity: 1;}
     }
     @-moz-keyframes pulse2 {
-    0%{opacty: 0; -transform: scale(0.1);}
+    0%{opacity: 0; -transform: scale(0.1);}
                50%  {-webkit-transform: scale(1.1);
-opacit: 1;}
-99%{opcity: 0.9;}
+opacity: 1;}
+99%{opacity: 0.9;}
         100% {-webkit-transform: scale(1);
-opacit: 1;}
+opacity: 1;}
     }
     @-o-keyframes pulse2 {
-       0%{opcity: 0; -transform: scale(0.1);}
+       0%{opacity: 0; -transform: scale(0.1);}
                50%  {-webkit-transform: scale(1.1);
-opaciy: 1;}
-99%{opaity: 0.9;}
+opacity: 1;}
+99%{opacity: 0.9;}
         100% {-webkit-transform: scale(1);
-opaciy 1;}
+opacity: 1;}
     }
     @keyframes pulse2{
-       0%{ocity: 0; -transform: scale(0.1);}
+       0%{opacity: 0; -transform: scale(0.1);}
                50%  {-webkit-transform: scale(1.1);
-opacty: 1;}
-99%{opcity: 0.9;}
+opacity: 1;}
+99%{opacity: 0.9;}
         100% {-webkit-transform: scale(1);
-oacity: 1;}
+opacity: 1;}
     }
 
 
