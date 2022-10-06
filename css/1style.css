@@ -407,12 +407,16 @@ Portfolio
 	top: 100%;
 	padding: 0;
 	margin: 0 0 0 -90px;
-}
+}.category_4{opacity: 999;background-color:#000;width: 90rem; height: 45rem;z-index: 9;;}
+
+.category_1,.category_2,.category_3{background-color:#000;}
+
+
 #folio_container{
 	position:relative;
 	z-index:3;
 	margin:0 auto;
-	max-width:1200px;
+	max-width:1200px;height: 36rem;overflow: hidden;
 }
 .aih{
 	width:100%;
@@ -455,10 +459,11 @@ Portfolio
 .box  a{
 	float:left;
 	position:relative;
-	width:100%;
+	width:100%;font-weight: 100;font-size: 1rem;
 	height:100%;
 	display:block;
-	color: rgb(241, 168, 50);;	background:#fff;
+	color:rgb(255, 255, 255);
+	background:rgba(255, 255, 255, 0);
 }
 .box a img{
 	position:relative;
@@ -505,7 +510,7 @@ Portfolio
 .box  a h4{
 	width:100%;
 	text-transform:uppercase;
-	font-size:18px;
+	font-size:16px;
 	font-weight:500;
 }
 .box  a h6{

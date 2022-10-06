@@ -15,17 +15,27 @@
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
 	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
 	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/owl.carousel.css" rel="stylesheet">
-	<link href="css/3style.css" rel="stylesheet" type="text/css" />
+    <link href="css/1owl.carousel.css" rel="stylesheet">
     
-	<!-- FONTS -->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
-    
-	<!-- SCRIPTS -->
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
 	
+
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/1owl.carousel.css" type="text/css" media="screen">
+	
+	<link rel="stylesheet" href="css/1flexslider.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/magnific-popup.css" media="all">
+
+	<link rel="stylesheet" href="css/1style.css" type="text/css" media="screen">
+
+	<link rel="stylesheet" href="css/33.css" type="text/css" media="screen">
+
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js" type="text/javascript"></script>
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
@@ -33,9 +43,32 @@
 	<script src="js/superfish.min.js" type="text/javascript"></script>
 	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
 	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/jquery.mb.YTPlayer.js" type="text/javascript"></script>
 	<script src="js/animate.js" type="text/javascript"></script>
 	<script src="js/jquery.BlackAndWhite.js"></script>
 	<script src="js/myscript.js" type="text/javascript"></script>
+
+
+	<script type="text/javascript" src="js/jpreloader.min.js"></script>
+	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/mixitup.js"></script>
+	<script type="text/javascript" defer src="js/jquery.1flexslider.js"></script>
+	<script type="text/javascript" defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/1owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	<script type="text/javascript" src="js/fitvids.js"></script>
+	<script type="text/javascript" src="js/zoom.js"></script>
+	<script type="text/javascript" src="js/jquery.hammer.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/okvideo.js"></script>
+	<script type="text/javascript" src="js/initplayer.js"></script>
+
 	<script>
 		
 		//PrettyPhoto
@@ -67,9 +100,9 @@
 		
 	</script>
 	
+	
 </head>
-<body>
-<!-- PRELOADER -->
+<body><!-- PRELOADER -->
 <img id="preloader" src="images/preloader.gif" alt="" />
 <!-- //PRELOADER -->
 <div class="preloader_hide">
@@ -77,291 +110,365 @@
 	<!-- PAGE -->
 	<div id="page" class="single_page">
 	<!-- HEADER -->
-		<header>
+		<div class="navigation">
 			
-			<!-- MENU BLOCK -->
-			<div class="menu_block">
-			
-				<!-- CONTAINER -->
-				<div class="container clearfix">
+				
+				<div class="nav-button transition">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				
+				<div class="inner">
+					<a href="#intro" class="logo"><img  src="images/11 — копия.png" style="width:4rem;"  alt="" title=""></a>
 					
-					<!-- LOGO -->
-					<div class="logo pull-left">
-						<a href="index.html" ><span class="b1">w</span><span class="b2">h</span><span class="b3">i</span><span class="b4">t</span><span class="b5">e</span></a>
-					</div><!-- //LOGO -->
-					
-					<!-- SEARCH FORM -->
-					<div id="search-form" class="pull-right">
-						<form method="get" action="#">
-							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
-						</form>
-					</div><!-- SEARCH FORM -->
-					
-					<!-- MENU -->
-					<div class="pull-right">
-						<nav class="navmenu center">
-							<ul>
+					<div class="link-holder" id="nav">
+
+                                                  <ul>   
 								<li class="sub-menu active">
-									<a href="javascript:void(0);">Оркестр</a>
+									<a href="index.html">Оркестр</a>
 									<ul>
-										<li><a href="blog.html">Об оркестре</a></li>
-										<li><a href="blog-post.html">Наш дирижёр</a></li>
-										<li class="active"><a href="portfolio-post.html">Солисты</a></li>
-										<li><a href="blog-post.html">Артисты оркестра</a></li>
+										<li><a href="boss.html">Наш дирижёр</a></li>
+										<li class="active"><a href="solists.html">Солисты</a></li>
+										<li><a href="artists.html">Артисты оркестра</a></li>
 
 									</ul>
 								</li>
                                                                        <li class="sub-menu active">
 									<a href="javascript:void(0);">Фестивали</a>
 									<ul>
-										<li><a href="blog.html">Серебряные струны</a></li>
-										<li><a href="blog-post.html">Ступеньки мастерства</a></li>
+										<li><a href="string.html">Серебряные струны</a></li>
+										<li><a href="#">Ступеньки мастерства</a></li>
 										
 
 									</ul>
 								</li>
 
-								<li class="scroll_btn"><a href="index.html#news">Афиша</a></li>
-								<li class="scroll_btn last"><a href="index.html#contacts">Контакты</a></li>
+								<li class="scroll_btn"><a href="afisha.html">Афиша</a></li>
+								<li class="scroll_btn last"><a href="#">Контакты</a></li>
 							</ul>
-						</nav>
-					</div><!-- //MENU -->
-				</div><!-- //MENU BLOCK -->
-			</div><!-- //CONTAINER -->
-		</header><!-- //HEADER -->
+					</div>
+					
+				</div>
+			
+					 
+			</div>
 		
-		
-		<!-- BREADCRUMBS -->
-		<section class="breadcrumbs_block clearfix parallax">
-		<div id="video" style="opacity:1 ;">
+	<section id="home">
+<div id="video" style="opacity:1 ;">
 
 	              <video loop muted autoplay poster="video/plane.jpg" class="fullscreen-bg__video">
-		             <source src="video/Comp 1.mp4"type="video/mp4">
+		             <source src="video/Видео 21-09-2022 115252.mp4"type="video/mp4">
 		             <source src="video/plane.webm" type="video/webm">
 	                  </video>
-	</div>
 	
-		</section><!-- //BREADCRUMBS -->
-
-		<!-- NEWS -->
-		<section id="news">
+	</div>
 		
+</section>	
+		<!-- BREADCRUMBS -->
+		<div class="title_block">				Об оркестре
+</div>
+		
+	
+	<!--=============== section portfolio ===============-->	
+		
+		<div id="portfolio" class="sections">
+		
+			<div class="content">
+			
+				<div class="container">
+				
+					<div class="small-separator"></div>
+					
+					<!-- portfolio filters -->
+					
+					<div id="options" class="clear">
+			
+
+					  <ul id="filters" class="option-set" data-option-key="filter">
+                           			<li class="filter" data-filter="category_1">История создания</li>
+						<li class="filter" data-filter="category_2">Участие в фестивалях</li>
+						<li class="filter" data-filter="category_3">Сотрудничство с музыкантами</li>
+						
+					  </ul>
+					  
+					</div> 
+	
+				 <!-- ajax-section -->
+				 
+				 <div class="clear"></div>
+					<div id="ajax-section">     
+						<div id="loader"></div>
+						<div id="ajax-content-outer">
+							<div id="ajax-content-inner"></div>
+						</div>
+						<div id="project-navigation" >
+							<ul>
+								<li id="prevProject"><a href="#"><i class="fa fa-angle-left"></i> </a></li>
+								<li id="nextProject"><a href="#"><i class="fa fa-angle-right"></i> </a></li>
+							</ul>  
+						</div>
+						<div id="closeProject">
+								<a href="#/"><i class="fa fa-times"></i></a>         
+						</div>                  
+					</div><!-- ajax-section end -->
+
+					<!-- Projects links -->
+					
+					<div class="aih">
+					<div id="scroll-el"></div>
+					
+						<ul id="folio_container">
+						
+						<!-- 1 project - ajax -->
+						
+							<li class="box grid-half  mix category_1 mix_all" >
+								<a href="#!projects/project-1.html" class="transition ajax-project">
+									<span class="folio-overlay"></span>
+									<div class="folio-name grid1 clear">
+		
+											<h4>		
+							<li>
+					
+							<p class="blur transition2 animaper">Оркестр русских народных инструментов «Тула» – лауреат Всероссийского фестиваля-конкурса оркестров и ансамблей русских народных инструментов имени Н.Н. Калинина (Смоленск, 2009 г.), Всероссийского конкурса оркестров и ансамблей национальных инструментов народов России «Многоликая Россия» (Орел, 2010 г.), Международного фестиваля оркестров и ансамблей русских народных инструментов «Струны России» (Ярославль, 2017 г.), фестиваля православной культуры и традиций малых городов и сельских поселений Руси «София-2017» (г. Тула, 2017 г.), Тверского фестиваля оркестров русских народных инструментов «Струны русской души» (2020 г.).
+
+Оркестр «Тула» создан в 1988 году. Коллектив ведет активную гастрольную деятельность, представляя свои программы в Концертном зале имени П.И. Чайковского, Рахманиновском зале Московской консерватории, в концертном зале Российской Академии музыки имени Гнесиных, концертном зале Саратовской государственной консерватории имени Л.В. Собинова. </p>
+					</h4>							
+											<h6>ajax page</h6>
+		
+									</div>
+								</a>
+								
+							</li>
+							
+						<!-- 2 project - ajax -->
+							
+							
+							<li class="box grid-half  mix category_2">
+								<a href="#!projects/project-1.html" class="transition ajax-project">
+									<span class="folio-overlay"></span>
+									<div class="folio-name grid1 clear">
+		
+											<h4>		
+							<li>
+					
+					<p class="transition">" «Тула» – постоянный участник всероссийских и региональных мероприятий и акций: Международный музыкальный фестиваль «Андреевские ассамблеи», посвященный 160-летию со дня рождения Василия Андреева в г. Гатчина, концерт-открытие XVI Международного детского конкурса исполнителей на народных инструментах «Метелица» имени Н.Н. Калинина в г. Санкт-Петербург, Тургеневский праздник «Дворянских гнезд заветные аллеи» в музее-заповеднике «Спасское-Лутовиново».
+
+Оркестр участвовал во Всероссийском молодежном образовательном форуме «Таврида» (республика Крым, 2018 г.), Всероссийской акции «День Гимна», посвящённой юбилею гимна России (г. Санкт-Петербург 2019 г.), в XX Российско-Финляндском культурном форуме (г. Тула, 2019 г).
+
+С 2008 года «Тула» ежегодно проводит областной фестиваль музыкального творчества детей и юношества «Ступеньки мастерства». В сопровождении оркестра выступают лучшие учащиеся и студенты музыкальных школ и колледжей Тулы и Тульской области – лауреаты областных, всероссийских и международных конкурсов.
+
+В 2011 году зрителям впервые был представлен совместный проект оркестра «Тула» и солистов Государственных оркестров и ансамблей русских народных инструментов России «Серебряные струны». С 2016 года «Серебряные струны» – Всероссийский фестиваль дирижёров и солистов профессиональных оркестров русских народных инструментов, в нем принимают участие ведущие артисты, музыканты и дирижёры из десятков городов России.
+
+ "</p></h4>							
+											<h6>ajax page</h6>
+		
+									</div>
+								</a>
+								
+							</li>
+							
+						<!-- 3 project - single page -->	
+						
+							
+							<li class="box grid-full  mix category_3 ">
+								<a href="#!projects/project-1.html" class="transition ajax-project">
+									<span class="folio-overlay"></span>
+									<div class="folio-name grid1 clear">
+		
+											<h4>		
+							<li>
+					
+					<p class="transition">" В концертах оркестра «Тула» принимали участие:
+
+Дирижеры: народный артист России Анатолий Винокур (г. Краснодар), заслуженный деятель искусств России Виктор Акулович (г. Санкт-Петербург), заслуженный работник культуры России Евгений Алешников (г. Белгород),заслуженный артист России Игорь Тонин (г. Санкт-Петербург),заслуженный артист России Владимир Иванов, заслуженный артист России, народный артист Республики Башкортостан Рамил Гайзуллин (г. Уфа),заслуженный артист России Олег Федянин (г. Тамбов), заслуженная артистка России Галина Иванкова (г. Волгоград), заслуженный деятель искусств Республики Крым Игорь Каждан (Смоленск), заслуженный деятель искусств Республики Крым Валентин Лобанов (г. Симферополь), заслуженный артист Республики Карелия Михаил Тоцкий (г. Петрозаводск).
+
+Солисты: народный артист России, солист Большого театра России Владимир Маторин (бас), народный артист России Василий Овсянников (баритон), народный артист России Александр Цыганков (домра), заслуженный артист России Юрий Сидоров (баян),заслуженный артист России Юрий Нугманов (гитара), заслуженный артист России Михаил Дзюдзе (балалайка-контрабас), заслуженный артист России Александр Захаров (тенор), заслуженный артист России, солист Национального академического оркестра народных инструментов России имени Н.П. Осипова Игорь Сенин (балалайка)
+
+Оркестром русских народных инструментов «Тула» в разные годы руководили:
+
+Заслуженный работник культуры РФ Виктор Брик.
+
+Лауреат XII Всемирного фестиваля молодежи и студентов в Москве Владимир Воробьев.
+
+Заслуженный работник культуры РФ Евгений Ануфриев.
+
+Заслуженный работник культуры РФ Сергей Саксин."</p></h4>							
+											<h6>ajax page</h6>
+		
+									</div>
+								</a>
+								
+							</li>
+						<!-- 4 project - youtube  video -->
+							
+											
+						</ul>	
+						
+					</div>
+				
+				
+					<div class="subcribe"><!-- subcribe -->
+					
+						<h3>Subcribe</h3>
+	
+						<fieldset>
+							<form class="subscriptionForm" method="post">
+								<input id="subscriptionForm" class="inputForm" type="text" value="Enter Your Email Address" onFocus="if (this.value=='Enter Your Email Address') this.value=''" onBlur="if (this.value==''){this.value='Enter Your Email Address'}" />
+								<input type="submit" id="submitButton" class="transition" value="Send">
+							</form>
+							
+							<div id="success">Thanks for your subscription</div>
+							<div id="error">Please enter a valid email address</div>
+							
+						</fieldset>
+						
+					</div><!-- subcribe end-->
+				
+				</div>
+			</div>
+		</div>
+<div class="title_block">				Афиша
+</div>
+	
+							
+		<section id="blog">
+			
 			<!-- CONTAINER -->
 			<div class="container">
-				<h2><b>Об</b>оркестре</h2>
 				
-				<!-- TESTIMONIALS -->
-				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- ROW -->
+				<div class="row">
+				
+	
+	<!-- BLOG BLOCK -->
+					<div class="blog_block col-lg-12 col-md-9 padbot50">
 						
-					<!-- TESTIMONIALS SLIDER -->
-					<div class="owl-demo owl-carousel testim_slider">
-						
-						<!-- TESTIMONIAL1 -->
-						<div class="item">
-							<div class="testim_author"><h1> История создания</h1></div>
-
-							<div class="testim_content">Оркестр русских народных инструментов «Тула» – лауреат Всероссийского фестиваля-конкурса оркестров и ансамблей русских народных инструментов имени Н.Н. Калинина (Смоленск, 2009 г.), Всероссийского конкурса оркестров и ансамблей национальных инструментов народов России «Многоликая Россия» (Орел, 2010 г.), Международного фестиваля оркестров и ансамблей русских народных инструментов «Струны России» (Ярославль, 2017 г.), фестиваля православной культуры и традиций малых городов и сельских поселений Руси «София-2017» (г. Тула, 2017 г.), Тверского фестиваля оркестров русских народных инструментов «Струны русской души» (2020 г.).
-                                     
-                                                                                                            Оркестр «Тула» создан в 1988 году. Коллектив ведет активную гастрольную деятельность, представляя свои программы в Концертном зале имени П.И. Чайковского, Рахманиновском зале Московской консерватории, в концертном зале Российской Академии музыки имени Гнесиных, концертном зале Саратовской государственной консерватории имени Л.В. Собинова.
-                                                                           </div>
-						</div><!-- TESTIMONIAL1 -->
-						
-						<!-- TESTIMONIAL2 -->
-						<div class="item">
-						<div class="testim_author"><h1> Участие в фестивалях</h1></div>
-
-							<div class="testim_content">" «Тула» – постоянный участник всероссийских и региональных мероприятий и акций: Международный музыкальный фестиваль «Андреевские ассамблеи», посвященный 160-летию со дня рождения Василия Андреева в г. Гатчина, концерт-открытие XVI Международного детского конкурса исполнителей на народных инструментах «Метелица» имени Н.Н. Калинина в г. Санкт-Петербург, Тургеневский праздник «Дворянских гнезд заветные аллеи» в музее-заповеднике «Спасское-Лутовиново».
-
-                                                                                                                            Оркестр участвовал во Всероссийском молодежном образовательном форуме «Таврида» (республика Крым, 2018 г.), Всероссийской акции «День Гимна», посвящённой юбилею гимна России (г. Санкт-Петербург 2019 г.), в XX Российско-Финляндском культурном форуме (г. Тула, 2019 г).
-
-                                                                                                                            С 2008 года «Тула» ежегодно проводит областной фестиваль музыкального творчества детей и юношества «Ступеньки мастерства». В сопровождении оркестра выступают лучшие учащиеся и студенты музыкальных школ и колледжей Тулы и Тульской области – лауреаты областных, всероссийских и международных конкурсов.
-
-                                                                                                                            В 2011 году зрителям впервые был представлен совместный проект оркестра «Тула» и солистов Государственных оркестров и ансамблей русских народных инструментов России «Серебряные струны». С 2016 года «Серебряные струны» – Всероссийский фестиваль дирижёров и солистов профессиональных оркестров русских народных инструментов, в нем принимают участие ведущие артисты, музыканты и дирижёры из десятков городов России.
-                                                                                                                            
-                                                                                                                     "</div>
-							</div><!-- TESTIMONIAL2 -->
-						
-						<!-- TESTIMONIAL3 -->
-						<div class="item">
-					<div class="testim_author"><h1> Сотрудничство с музыкантами</h1></div>
-
-							<div class="testim_content">" В концертах оркестра «Тула» принимали участие:
-
-                                                                                                                                           Дирижеры: народный артист России Анатолий Винокур (г. Краснодар), заслуженный деятель искусств России Виктор Акулович (г. Санкт-Петербург), заслуженный работник культуры России Евгений Алешников (г. Белгород),заслуженный артист России Игорь Тонин (г. Санкт-Петербург),заслуженный артист России Владимир Иванов, заслуженный артист России, народный артист Республики Башкортостан Рамил Гайзуллин (г. Уфа),заслуженный артист России Олег Федянин (г. Тамбов), заслуженная артистка России Галина Иванкова (г. Волгоград), заслуженный деятель искусств Республики Крым Игорь Каждан (Смоленск), заслуженный деятель искусств Республики Крым Валентин Лобанов (г. Симферополь), заслуженный артист Республики Карелия Михаил Тоцкий (г. Петрозаводск).
-
-                                                                                                                                           Солисты: народный артист России, солист Большого театра России Владимир Маторин (бас), народный артист России Василий Овсянников (баритон), народный артист России Александр Цыганков (домра), заслуженный артист России Юрий Сидоров (баян),заслуженный артист России Юрий Нугманов (гитара), заслуженный артист России Михаил Дзюдзе (балалайка-контрабас), заслуженный артист России Александр Захаров (тенор), заслуженный артист России, солист Национального академического оркестра народных инструментов России имени Н.П. Осипова Игорь Сенин (балалайка)
-
-                                                                                                                                           Оркестром русских народных инструментов «Тула» в разные годы руководили:
-
-                                                                                                                                           Заслуженный работник культуры РФ Виктор Брик.
-
-                                                                                                                                           Лауреат XII Всемирного фестиваля молодежи и студентов в Москве Владимир Воробьев.
-
-                                                                                                                                           Заслуженный работник культуры РФ Евгений Ануфриев.
-
-                                                                                                                                             Заслуженный работник культуры РФ Сергей Саксин."
-                                                                                                                    </div>
-								</div><!-- TESTIMONIAL3 -->
-					</div><!-- TESTIMONIALS SLIDER -->
-				</div><!-- //TESTIMONIALS -->
-				
-				
-			</div><!-- //CONTAINER -->
-		</section><!-- //NEWS --><!-- NEWS -->
-		<section id="news">
-		
-			<!-- CONTAINER -->
-			<div class="container">
-				<h2><b>Ближайшие</b>концерты</h2>
-				
-				
-				<!-- RECENT POSTS -->
-				<div class="row recent_posts" data-appear-top-offset="-200" data-animated="fadeInUp">
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/1.jpg" alt="" />
-								<a class="link" href="blog-post.html" ></a>
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/3 (2).jpg" alt="" />
+								<a class="zoom" href="blog-post.html" ></a>
 							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Inteligent Transitions In UX Design</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Photography</a> |</li>
-									<li><a href="javascript:void(0);" >10 Comments</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/2.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Recent trends in storytelling</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Web Design</a> |</li>
-									<li><a href="javascript:void(0);" >No comment</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 padbot30 post_item_block">
-						<div class="post_item">
-							<div class="post_item_img">
-								<img src="images/blog/3.jpg" alt="" />
-								<a class="link" href="blog-post.html"></a>
-							</div>
-							<div class="post_item_content">
-								<a class="title" href="blog-post.html" >Supernatural FX Showreel</a>
-								<ul class="post_item_inf">
-									<li><a href="javascript:void(0);" >Anna</a> |</li>
-									<li><a href="javascript:void(0);" >Creative</a> |</li>
+							<div class="blog_post_descr">
+								<div class="blog_post_date">4 ноября | 17:00</div>
+								<a class="blog_post_title" href="blog-post.html" >Государственный оркестр русских народных инструментов «Метелица»</a>
+								<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
 									<li><a href="javascript:void(0);" >3 Comments</a></li>
 								</ul>
+								<hr>
+								<div class="blog_post_content">The best way to describe Adam Selman would be simply to say that he is the epitome of cool. So it’s only fitting that his first runway collection was made for the ultimate cool girl.</div>
+								<a class="read_more_btn" href="blog-post.html" >Read More</a>
 							</div>
-						</div>
-					</div>
-				</div><!-- RECENT POSTS -->
-			</div><!-- //CONTAINER -->
-		</section><!-- //NEWS -->
-		
-	</div><!-- //PAGE -->
-	
-	<!-- CONTACTS -->
-	<section id="contacts">
-	</section><!-- //CONTACTS -->
-	
-	<!-- FOOTER -->
-	<footer>
-			
-		<!-- CONTAINER -->
-		<div class="container">
-			
-			<!-- ROW -->
-			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
-				
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30">
-					<h4><b>Featured</b> posts</h4>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/1.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >As we have developed a unique layout template</a>
-							<ul class="post_item_inf_small">
-								<li>10 January 2014</li>
-							</ul>
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/2.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >How much is to develop a design for the game?</a>
-							<ul class="post_item_inf_small">
-								<li>14 January 2014</li>
-							</ul>
-						</div>
-					</div>
-					<div class="recent_posts_small clearfix">
-						<div class="post_item_img_small">
-							<img src="images/blog/3.jpg" alt="" />
-						</div>
-						<div class="post_item_content_small">
-							<a class="title" href="blog.html" >How to pump designer</a>
-							<ul class="post_item_inf_small">
-								<li>21 December 2013</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				
-				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
-					<h4><b>About</b> us</h4>
-					<p>We value people over profits, quality over quantity, and keeping it real. As such, we deliver an unmatched working relationship with our clients.</p>
-					<p>Our team is intentionally small, eclectic, and skilled; with our in-house expertise, we provide sharp and</p>
-					<ul class="social">
-						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
-						<li><a href="javascript:void(0);" ><i class="map_show fa fa-map-marker"></i></a></li>
-					</ul>
-				</div>
-				
-				<div class="respond_clear"></div>
-				
-				<div class="col-lg-4 col-md-4 padbot30">
-					<h4><b>Contacts</b> Us</h4>
-					
-					<!-- CONTACT FORM -->
-					<div class="span9 contact_form">
-						<div id="note"></div>
-						<div id="fields">
-							<form id="contact-form-face" class="clearfix" action="#">
-								<input type="text" name="name" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
-								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
-								<input class="contact_btn" type="submit" value="Send message" />
-							</form>
-						</div>
-					</div><!-- //CONTACT FORM -->
-				</div>
-			</div><!-- //ROW -->
-		</div><!-- //CONTAINER -->
-	</footer><!-- //FOOTER -->
-	
-	
-	<!-- MAP -->
-	<div id="map">
-		<a class="map_hide" href="javascript:void(0);" ><i class="fa fa-angle-right"></i><i class="fa fa-angle-left"></i></a>
-		<iframe src="http://maps.google.com/maps?f=q&amp;give%20a%20hand=s_q&amp;hl=en&amp;geocode=&amp;q=london&amp;sll=37.0625,-95.677068&amp;sspn=42.631141,90.263672&amp;ie=UTF8&amp;hq=&amp;hnear=London,+United+Kingdom&amp;ll=51.500141,-0.126257&amp;spn=0.026448,0.039396&amp;z=14&amp;output=embed" ></iframe>
-	</div><!-- //MAP -->
+						</div><!-- //BLOG POST -->
+						
 
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							
+
+
+
+							<video class="blog_post_img" src="video/Видео 21-09-2022 115252.mp4"  controls>
+				
+								<video controls>
+									 <source src="video/Видео 21-09-2022 115252.mp4" type="video/mp4">
+									<source src="dir/film.ogv" type="video/ogg">
+									 <source src="dir/film.webm" type="video/webm">
+								 </video>
+							 </video>
+							<div class="blog_post_descr">
+								<div class="blog_post_date">JANUARY 30 | 21:30</div>
+								<a class="blog_post_title" href="blog-post.html" >The Four Week Workout to Tank Top Worthy Arm</a>
+								<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>
+								<hr>
+								<div class="blog_post_content">Our stomachs, legs, and butts, (thanks to Jen Selter) are usually top priority areas when it comes to getting in shape. But when I'm tagged in a photo on Instagram, I quite often find myself wishing for an arm-sculpting filter.</div>
+								<a class="read_more_btn" href="blog-post.html" >Read More</a>
+							</div>
+						</div><!-- //BLOG POST -->
+						
+						
+						
+						
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							<div class="blog_post_img">
+								<img src="images/blog/5.jpg" alt="" />
+								<a class="zoom" href="blog-post.html" ></a>
+							</div>
+							<div class="blog_post_descr">
+								<div class="blog_post_date">JANUARY 30 | 21:30</div>
+								<a class="blog_post_title" href="blog-post.html" >Why Do We Need to Defend Wendy Davis for Being a Working Mom?</a>
+								<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>
+								<hr>
+								<div class="blog_post_content">On Tuesday, the daughters of Texas state senator Wendy Davis defended their mom against charges that she’s been smudging her biography</div>
+								<a class="read_more_btn" href="blog-post.html" >Read More</a>
+							</div>
+						</div><!-- //BLOG POST -->
+					</div></div></section>
+<div class="title_block">				Новости
+</div>
+<section id="blog">
+			
+			<!-- CONTAINER -->
+			<div class="container">
+				
+				<!-- ROW -->
+				<div class="row">
+				
+	
+	<!-- BLOG BLOCK -->
+					<div class="blog_block col-lg-9 col-md-9 padbot50">
+						
+
+						<!-- BLOG POST -->
+						<div class="blog_post margbot50 clearfix" data-animated="fadeInUp">
+							
+
+
+
+							<video class="blog_post_img" src="video/Видео 21-09-2022 115252.mp4"  controls>
+				
+								<video controls>
+									 <source src="video/Видео 21-09-2022 115252.mp4" type="video/mp4">
+									<source src="dir/film.ogv" type="video/ogg">
+									 <source src="dir/film.webm" type="video/webm">
+								 </video>
+							 </video>
+							<div class="blog_post_descr">
+								<div class="blog_post_date">JANUARY 30 | 21:30</div>
+								<a class="blog_post_title" href="blog-post.html" >The Four Week Workout to Tank Top Worthy Arm</a>
+								<ul class="blog_post_info">
+									<li><a href="javascript:void(0);" >Admin</a></li>
+									<li><a href="javascript:void(0);" >Creative</a></li>
+									<li><a href="javascript:void(0);" >3 Comments</a></li>
+								</ul>
+								<hr>
+								<div class="blog_post_content">Our stomachs, legs, and butts, (thanks to Jen Selter) are usually top priority areas when it comes to getting in shape. But when I'm tagged in a photo on Instagram, I quite often find myself wishing for an arm-sculpting filter.</div>
+								<a class="read_more_btn" href="blog-post.html" >Read More</a>
+							</div>
+						</div><!-- //BLOG POST -->
+						
+						
+						
+						
+					</div></div></section>
+
+<div class="slide_block"> <div class="slides1">		
+<div class="slide">Добро пожаловать на оффициальный сайт оркестра народных инструментов "ТУЛА". Сайт находиться в тестовом режиме , в стадии наполнения.</h3>
+						</div>
+
+</div>	
 </div>
 </body>
 </html>

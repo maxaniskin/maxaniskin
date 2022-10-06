@@ -98,7 +98,7 @@
 	width:70px;
 	height:70px;
 	margin:0 0 0 -2px;
-	border:2px solid #ccc;
+	border:2px solid  rgb(144, 103, 61);
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
