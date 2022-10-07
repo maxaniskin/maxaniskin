@@ -395,7 +395,7 @@ color:rgba(0, 0, 0, 0);}
 /* ====================
 Portfolio
 --------------------------------------------------------------*/
-
+#portfolio{height: 35rem;}
 
 /* Sub menu */
 .scroll-link ul li {
@@ -404,19 +404,19 @@ Portfolio
 	z-index: 9990;
 	width: 180px;
 	left: 50%;
-	top: 100%;
+	top: 50%;
 	padding: 0;
 	margin: 0 0 0 -90px;
-}.category_4{opacity: 999;background-color:#000;width: 90rem; height: 45rem;z-index: 9;;}
+}.category_4{opacity: 999;background-color:#000;width: 90rem; height:15rem;z-index: 9;;overflow: hidden;}
 
 .category_1,.category_2,.category_3{background-color:#000;}
 
 
 #folio_container{
 	position:relative;
-	z-index:3;
+	z-index:3;background-color:;
 	margin:0 auto;
-	max-width:1200px;height: 36rem;overflow: hidden;
+	max-width:1200px;height: 26rem;overflow: hidden;
 }
 .aih{
 	width:100%;
@@ -510,8 +510,8 @@ Portfolio
 .box  a h4{
 	width:100%;
 	text-transform:uppercase;
-	font-size:16px;
-	font-weight:500;
+	font-size:12px;
+	font-weight:100;color: wheat;
 }
 .box  a h6{
 	width:100%;

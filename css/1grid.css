@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
 .container {width: 98%;}
 .grid-1,.grid-2,.grid-3,.grid-4,.grid-5,.grid-6,.grid-half,.grid-full {width: 96.969696969697%;margin: 0 1.515151515152%;display: flex;;}
-.grid-half {width: 46.969696969697%;margin: 0 1.515151515152%;}
+.grid-half {width: 96.969696969697%;margin: 0 1.515151515152%;}
 }
 
 @media screen and (min-width: 640px) {
