@@ -1,4 +1,4 @@
-<!DOCT<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	
@@ -68,41 +68,65 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/okvideo.js"></script>
 	<script type="text/javascript" src="js/initplayer.js"></script>
+<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
 
 </head>
 
-<body>
-
-<!-- PRELOADER -->
-<img id="preloader" src="images/preloader.gif" alt="" />
-<!-- //PRELOADER -->
-<div class="preloader_hide">
-
-	<!-- PAGE -->
-	<div id="page" class="single_page">
-	
-
-	<div class="sections">
-		<!--=============== navigation ===============-->
-		
-			<div class="navigation">
+	<!-- HEADER -->
+		<header>
 			
-				
-				<div class="nav-button transition">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-				
-				<div class="inner">
-					<a href="#intro" class="logo"><img  src="images/11 — копия.png" style="width:4rem;"  alt="" title=""></a>
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
 					
-					<div class="link-holder" id="nav">
-
-                                                      <ul>                                                    <ul>   <li class="sub-menu active"><a href="index.html">Главная</a></li>
- 
+					<!-- LOGO -->
+					<div class="logo ">
+                                              </div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							 <ul>   <li class="sub-menu active"><a href="index.html">Главная</a></li>
 								<li class="sub-menu active">
-									<a href="#">Оркестр</a>
+									<a href="index.html">Оркестр</a>
 									<ul>
 										<li><a href="boss.html">Наш дирижёр</a></li>
 										<li class="active"><a href="solists.html">Солисты</a></li>
@@ -123,17 +147,16 @@
 								<li class="scroll_btn"><a href="afisha.html">Афиша</a></li>
 								<li class="scroll_btn last"><a href="#">Контакты</a></li>
 							</ul>
-					</div>
-					
-				</div>
-			
-					 
-			</div>
-
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
 		
+	
 		<!-- BREADCRUMBS -->
 		<section class="breadcrumbs_block clearfix parallax">
-				<h2><b>Артисты </b>оркестра</h2>
+				<h2>Артисты оркестра</h2>
 		</section><!-- //BREADCRUMBS -->
 		
 			
