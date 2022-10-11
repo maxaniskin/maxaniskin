@@ -1632,6 +1632,13 @@ background:radial-gradient(orange black);}
 
 /*-----------------------------------------------------------------------------------*/
 /*	RESPONSIVE STYLES
+/*----
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	RESPONSIVE STYLES
 /*-----------------------------------------------------------------------------------*/
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
@@ -1647,15 +1654,17 @@ margin-right: auto;} video{width: 100%;margin-top: -1rem;z-index: -9999;}
 }
 
 @media (max-width: 1024px) {
+}#video {position:relative;background-color:rgb(28, 9, 9);
 
 	
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.parallax, .cleancode_block, #team {background-attachment:scroll !important; background-size:100% auto !important; -webkit-background-size:100% auto !important;}
-	.toptitle h1{ font-size: 6em;-webkit-text-stroke:1px rgb(185, 125, 15);color:rgba(0, 0, 0, 0.001);
+	.toptitle h1{ font-size: 6em;-webkit-text-stroke:1px rgb(185, 15, 55)
+;color:rgba(0, 0, 0, 0.001);
 
-}#video {position:relative;background-color:#000;
+}#video {position:relative;background-color:rgb(28, 9, 9);
 	top: 90px;z-index: 1;
 width: 60%;
 height:100%;
@@ -1731,7 +1740,8 @@ margin-right: auto;} video{width: 100%;}
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.logo a {font-size:22px;}
-	.toptitle h1{ font-size: 5em;-webkit-text-stroke:1px rgb(185, 125, 15);color:rgba(0, 0, 0, 0.001);
+	.toptitle h1{ font-size: 5em;-webkit-text-stroke:1px rgb(185, 15, 55)
+;color:rgba(0, 0, 0, 0.001);
 
 }  
 video{width: 100%;}
@@ -1811,7 +1821,7 @@ video{width: 100%;}
 
 /* __________ All Styles __________ */
 	.breadcrumbs_block {padding:50px 0;}
-	.breadcrumbs_block h2 {font-size:60px; line-height:64px;}
+	.breadcrumbs_block h2 {font-size:40px; line-height:64px;}
 	.breadcrumbs_block p {font-size:21px; line-height:24px;}
 	
 
@@ -1829,12 +1839,16 @@ video{width: 100%;}
 
 @media (max-width: 767px) {
 	.container {padding-left:15px; padding-right:15px;}
-	.toptitle h1{ font-size: 4em;-webkit-text-stroke:1px rgb(185, 125, 15);color:rgba(0, 0, 0, 0.001);
+#home{height: 22rem;margin: 0;padding: 0;}
 
-}video{width: 100%;}
-	
+	.toptitle h3{ font-size: 2em;
+;color:rgba(0, 0, 0, 0.001);
+
+}video{width: 100%;margin:5rem 0 0 0;padding: 0;height: 25rem;}
+#video{width: 100%;margin:5rem 0 0 0;height: 25rem;   padding: 0;}	
 	h2 {font-size:30px; line-height:32px;}
-	
+.title_block{margin: 0;padding:1px 0;}	
+.title_block h2{font-size: 3rem;}	
 	
 	.logo a {font-size:22px;}
 	
@@ -1843,25 +1857,27 @@ video{width: 100%;}
 	
 	
 /* __________ Menu __________ */
-	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; text-align:center; line-height:38px; font-size:23px; color:#fff; background-color: rgb(185, 125, 15)
+	a.menu_toggler {display:inline-block; float:right; margin: 20px 0 0 20px; width:40px; height:40px; 
+text-align:center; line-height:38px; font-size:23px; color:#fff; background-color:
 
 
 ;}
-	a.menu_toggler:hover {background-color: rgb(185, 125, 15)
+	a.menu_toggler:hover {background-color: 
+
 
 
 ;}
 	
-	.navmenu {position:absolute; left:0; right:0; top:80px; background-color:#fff;}
+	.navmenu {position:absolute; left:0; right:0; top:80px; background-color:rgb(61, 61, 61);}
 	.navmenu ul {padding:10px 0;}
 	.navmenu ul li {display:block; text-align:left;}
 	.navmenu ul li a {padding:4px 20px;}
-	
-	.sub-menu ul {display:block; position:static; width:100%; box-shadow:none; padding:0; margin:0;}
+	.logo{margin-top: 1.8rem;}
+	.sub-menu ul {display:block; position:static; width:100%;height: 15rem; box-shadow:none; padding:0; margin:0;}
 	.sub-menu ul:before {display:none !important;}
 	.navmenu li.sub-menu:hover, .navmenu li.sub-menu.active_page {background:none;}
-	.sub-menu ul li a {background:none; border:0; padding-left:30px;}
-	.sub-menu ul li a:hover, .sub-menu ul li.active a {background:none !important; color: rgb(185, 125, 15)
+	.sub-menu ul li a {background:none; border:0; padding-left:30px;margin: 1rem 0;}
+	.sub-menu ul li a:hover, .sub-menu ul li.active a {background:none !important; 
 
 
  !Important;}
@@ -1922,14 +1938,13 @@ video{width: 100%;}
 	
 /* __________ Blog __________ */
 	.blog_post_descr hr {margin:15px 0;}
-	
-	.blog_post_img {width:200px; height:157px; margin-right:20px;}
+	.blog_post_date{margin: 1rem;font-size: 1.6rem;}
+	.blog_post_img {width:200px; height:135px;background-color:white;padding: 2.5rem 0; margin-right:20px;overflow: hidden;}
 	.blog_post_title {font-size:19px; line-height:22px;}
 	.blog_post_descr hr {clear:both; border:0;}
 	.blog_post_content {font-size:14px; line-height:22px;}
-	.blog_post_info li a {font-size:13px;}
-	.blog_post_info li {padding-right:15px;}
-	.blog_post_info li:before {right:6px;}
+	.blog_post_info li a {font-size:16px;}
+	.blog_post_info li {padding:15px 0;margin: 0;width: 98%;position: relative;}
 	.blog_post_content {padding-top:20px;}
 	
 	.pagination li {width:40px; height:40px;}
@@ -1937,11 +1952,11 @@ video{width: 100%;}
 	.pagination li.active a, .pagination li a:focus, .pagination li a:hover {font-size:18px;}
 	
 	
-	.single_blog_post_title{font-size:44px; line-height:50px;}
+	.single_blog_post_title{font-size:4px; line-height:50px;}
 	
 	
 /* __________ Single Blog Post __________ */
-	.single_blog_post_date {margin:0;}
+	.single_blog_post_date {margin:1rem 0;}
 	.single_blog_post_title {font-size:26px; line-height:32px;}
 	
 	.comment_note {padding:0 0 20px;}
@@ -1960,7 +1975,7 @@ video{width: 100%;}
 
 /* __________ All Styles __________ */
 	.breadcrumbs_block {padding:40px 0;}
-	.breadcrumbs_block h2 {font-size:50px; line-height:54px;}
+	.breadcrumbs_block h2 {font-size:40px; line-height:54px;}
 	.breadcrumbs_block p {font-size:16px; line-height:20px;}
 
 
@@ -1980,15 +1995,19 @@ video{width: 100%;}
 
 	#search-form {display:none;}
 	
-	.toptitle h1{ font-size:2em;-webkit-text-stroke:1px rgb(185, 125, 15);color:rgba(0, 0, 0, 0.001);
+	.toptitle h1{ font-size:2em;
+;color:rgba(0, 0, 0, 0.001);
 
 }
+
+
+
+
+
 /* __________ Index __________ */
 	h2 {font-size:26px; line-height:26px;}
-	
-	
+	#home{height: 60rem;}
 	.purpose_block .btn {padding:10px; margin:10px 5px 0 0;}
-	
 	
 	.cleancode_block p.title {font-size:26px; line-height:26px;}
 	.cleancode_block .nav-tabs {width:290px;}
